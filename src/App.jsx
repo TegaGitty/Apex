@@ -2,11 +2,11 @@ import Header from "./components/Header";
 import Hero from "./components/hero";
 import BentoGrid from "./components/BentoGrid";
 import CodeShowcase from "./components/CodeShowcase";
-// import SystemMetrics from "./components/SystemMetrics";
-// import TechSpecGrid from "./components/TechSpecGrid";
-// import PricingGrid from "./components/PricingGrid";
-// import FAQSection from "./components/FAQSection";
-// import Footer from "./components/Footer";
+import SystemMetrics from "./components/SystemMetrics";
+import TechSpecGrid from "./components/TechSpecGrid";
+import PricingGrid from "./components/PricingGrid";
+import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -23,18 +23,18 @@ export default function App() {
         <CodeShowcase />
 
         {/* Section 4: Translucent Card Overlay (#111827 / 50) */}
-        {/* <SystemMetrics /> */}
+        <SystemMetrics />
 
         {/* Section 5: Tech Spec Layout (#090d16) */}
-        {/* <TechSpecGrid /> */}
+        <TechSpecGrid />
 
         {/* Section 6: Radial Gradient Surface (from #090d16 via #111625 to #090d16) */}
-        {/* <PricingGrid /> */}
+        <PricingGrid />
 
         {/* Section 7: Dark Slate Matte Surface (#0d1322) */}
-        {/* <FAQSection />  */}
+        <FAQSection /> 
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
